@@ -6,13 +6,14 @@ body {
     width: 65%;
     margin: 0 auto;
     text-align: center;
-    background-color: #65737e;
+    background-color: #5B2C6F;
     padding: 4%;
 }
 
 .container img {
-    max-width: 250px;
-    padding: 4px;
+    max-width: 200px;
+    padding: 8px;
+    border-radius: 10%;
 }
 
 #elementos {

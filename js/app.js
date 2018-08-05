@@ -23,15 +23,15 @@ $(document).ready(function() {
                 }
             })
             .done(function(response) {
-                console.log(response);
+                // console.log(response);
                 dibujarGifs(response.data);
             })
             .fail(function() {
-                console.log("error");
+                alert("Error");
             });
     }
     $("#buscar-gif").click(function(event) {
-        console.log("Entro");
+        // console.log("Entro");
         $("#elementos").empty();
         var gif = $("#gif-text").val();
         ajaxGif(gif);
